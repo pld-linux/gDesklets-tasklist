@@ -1,5 +1,5 @@
 
-%define	pname	tasklist
+%define		pname	tasklist
 
 Summary:	This is a simple display that embeds the GNOME tasklist via Bonobo
 Summary(pl):	Prosty desklet osadzaj±cy pasek zadañ GNOME poprzez Bonobo
