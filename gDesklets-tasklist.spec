@@ -1,4 +1,6 @@
+
 %define	pname	tasklist
+
 Summary:	This is a simple display that embeds the GNOME tasklist via Bonobo
 Summary(pl):	Prosty desklet osadzaj±cy pasek zadañ GNOME poprzez Bonobo
 Name:		gDesklets-%{pname}
@@ -15,7 +17,7 @@ Requires:	gDesklets
 Provides:	gDesklets-display
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define _displaysdir	%{_datadir}/gdesklets/Displays
+%define		_displaysdir	%{_datadir}/gdesklets/Displays
 
 %description
 This is a simple display that embeds the GNOME tasklist via Bonobo.
