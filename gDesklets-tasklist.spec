@@ -31,7 +31,7 @@ Prosty desklet osadzaj±cy pasek zadañ GNOME poprzez Bonobo.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_displaysdir}/%{pname}
-pwd
+
 cp *.display $RPM_BUILD_ROOT%{_displaysdir}/%{pname}/
 
 %clean
